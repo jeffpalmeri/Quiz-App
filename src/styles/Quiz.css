@@ -1,0 +1,46 @@
+.Quiz {
+  height: 100%;
+}
+
+.starting-prompt h1 {
+  margin: 0px;
+}
+
+.starting-prompt {
+  padding-top: 6%;
+  margin: 10px;
+}
+
+.question-prompt {
+  margin: 30px;
+}
+
+.question-prompt h1 {
+  font-size: 1em;
+}
+
+.start-button {
+  color: white;
+  background-color: #1da598;
+  border-radius: 35px;
+  width: 200px;
+  height: 45px;
+  border: none;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.start-button:hover {
+  cursor: pointer;
+  background-color: #188d81;
+}
+
+.start-button:focus {
+  outline: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .question-prompt h1 {
+    font-size: 2em;
+  }
+}

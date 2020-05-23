@@ -1,0 +1,23 @@
+.FinishedScreen p {
+  font-size: 18px;
+}
+
+.play-again-button {
+  color: white;
+  background-color: #1da598;
+  border-radius: 35px;
+  width: 200px;
+  height: 45px;
+  border: none;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.play-again-button:hover {
+  cursor: pointer;
+  background-color: #188d81;
+}
+
+.play-again-button:focus {
+  outline: 0;
+}
