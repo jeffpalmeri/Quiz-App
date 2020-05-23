@@ -32,7 +32,6 @@
 
 .start-button:hover {
   cursor: pointer;
-  background-color: #188d81;
 }
 
 .start-button:focus {
@@ -42,5 +41,8 @@
 @media only screen and (min-width: 768px) {
   .question-prompt h1 {
     font-size: 2em;
+  }
+  .start-button:hover {
+    background-color: #188d81;
   }
 }
